@@ -1,0 +1,20 @@
+#ifndef _COSTOM_HEADER_H
+#define _COSTOM_HEADER_H
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <stdio.h>
+#include "os_port.h"
+#include "ssl.h"
+#include <stdarg.h>
+#include "config.h"
+#include "private_key.h"
+#include "cert.h"
+#include "crypto.h"
+#include "crypto_misc.h"
+#include <errno.h>
+#include <signal.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <pthread.h>
+#endif
